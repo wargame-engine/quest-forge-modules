@@ -1,0 +1,119 @@
+{
+  "equipment": {
+    "bastard_sword": {
+      "name": "Bastard Sword",
+      "damage": "1d8",
+      "types": ["Two-handed", "Melee"],
+      "range": 0,
+      "wealth": 2,
+      "bulk": 3,
+      "attackAttributes": ["Agility", "Might"],
+      "criticals": {"forced move": "Forced Move", "knockdown": "Knockdown"}
+    },
+    "blow_gun": {"name": "Blow Gun", "range": 25, "wealth": 1, "rules": {}, "criticals": {"immobile": "Immobile"}},
+    "claymore": {
+      "name": "Claymore",
+      "type": "Two-handed",
+      "range": "Melee",
+      "wealth": 2,
+      "attackAttributes": ["Might", "Agility"],
+      "criticals": {"forced move": "Forced Move", "knockdown": "Knockdown"}
+    },
+    "club": {"name": "Club", "range": 0, "wealth": 1, "rules": {}, "criticals": {"knockdown": "Knockdown", "stunned": "Stunned"}},
+    "dagger": {
+      "name": "Dagger",
+      "wealth": 2,
+      "bulk": 1,
+      "types": ["One-handed", "Melee", "Close Ranged"],
+      "damage": "1d4",
+      "attackAttributes": ["Might", "Agility"],
+      "rules": {"swift": "Swift"},
+      "criticals": {"disarmed": "Disarmed", "persistent damage": "Persistent Damage"}
+    },
+    "dart": {"name": "Dart", "range": 25, "wealth": 1, "rules": {}, "criticals": {"immobile": "Immobile"}},
+    "falchion": {"name": "Falchion", "hands": 3, "range": 0, "wealth": 2, "rules": {}, "criticals": {"disarmed": "Disarmed", "persistent damage": "Persistent Damage"}},
+    "firebomb_elixir": {
+      "name": "Firebomb Elixir",
+      "range": 25,
+      "wealth": 2,
+      "rules": {"area": "10' cube", "expendable": "Expendable"},
+      "criticals": {"forced move": "Forced Move", "knockdown": "Knockdown", "persistent damage": "Persistent Damage"}
+    },
+    "glaive": {"name": "Glaive", "range": 0, "wealth": 2, "rules": {"reach": "Reach"}, "criticals": {"forced move": "Forced Move", "immobile": "Immobile", "knockdown": "Knockdown"}},
+    "great_axe": {"name": "Great Axe", "range": 0, "wealth": 2, "rules": {"heavy": "Heavy"}, "criticals": {"forced move": "Forced Move", "knockdown": "Knockdown", "stunned": "Stunned"}},
+    "greatsword": {"name": "Greatsword", "range": 0, "wealth": 2, "rules": {"heavy": "Heavy"}, "criticals": {"forced move": "Forced Move", "knockdown": "Knockdown"}},
+    "halberd": {"name": "Halberd", "range": 0, "wealth": 2, "rules": {"reach": "Reach"}, "criticals": {"forced move": "Forced Move", "immobile": "Immobile", "knockdown": "Knockdown"}},
+    "handgun": {"name": "Handgun", "range": 25, "wealth": 2, "rules": {}, "criticals": {"persistent damage": "Persistent Damage", "slowed": "Slowed"}},
+    "hatchet": {"name": "Hatchet", "range": 25, "wealth": 2, "rules": {"swift": "Swift"}, "criticals": {"disarmed": "Disarmed", "persistent damage": "Persistent Damage"}},
+    "heavy_crossbow": {"name": "Heavy Crossbow", "range": 125, "wealth": 2, "rules": {}, "criticals": {"persistent damage": "Persistent Damage", "slowed": "Slowed"}},
+    "improvised_weapon": {"name": "Improvised Weapon", "range": 0, "wealth": 1, "rules": {}, "criticals": {"knockdown": "Knockdown", "stunned": "Stunned"}},
+    "katana": {"name": "Katana", "hands": 3, "range": 0, "wealth": 2, "rules": {}, "criticals": {"disarmed": "Disarmed", "persistent damage": "Persistent Damage"}},
+    "light_crossbow": {"name": "Light Crossbow", "range": 75, "wealth": 2, "rules": {}, "criticals": {"immobile": "Immobile", "persistent damage": "Persistent Damage"}},
+    "long spear": {
+      "name": "Long Spear",
+      "range": 25,
+      "wealth": 2,
+      "rules": {"reach": "Reach"},
+      "criticals": {"disarmed": "Disarmed", "immobile": "Immobile", "persistent damage": "Persistent Damage"}
+    },
+    "longbow": {"name": "Longbow", "range": 125, "wealth": 2, "rules": {}, "criticals": {"persistent damage": "Persistent Damage", "slowed": "Slowed"}},
+    "longsword": {
+      "name": "Longsword",
+      "hands": 3,
+      "range": 0,
+      "wealth": 2,
+      "attackAttributes": ["Might", "Agility"],
+      "types": ["Versatile", "Melee"],
+      "criticals": {"disarmed": "Disarmed", "persistent damage": "Persistent Damage"}
+    },
+    "mace": {"name": "Mace", "range": 0, "wealth": 2, "rules": {}, "criticals": {"forced move": "Forced Move", "knockdown": "Knockdown", "stunned": "Stunned"}},
+    "maul": {"name": "Maul", "range": 0, "wealth": 2, "rules": {"heavy": "Heavy"}, "criticals": {"forced move": "Forced Move", "knockdown": "Knockdown", "stunned": "Stunned"}},
+    "naginata": {"name": "Naginata", "range": 0, "wealth": 2, "rules": {"reach": "Reach"}, "criticals": {"forced move": "Forced Move", "immobile": "Immobile", "knockdown": "Knockdown"}},
+    "no_dachi": {"name": "No-dachi", "range": 0, "wealth": 2, "rules": {"heavy": "Heavy"}, "criticals": {"forced move": "Forced Move", "knockdown": "Knockdown"}},
+    "pitchfork": {"name": "Pitchfork", "range": 0, "wealth": 1, "rules": {}, "criticals": {"forced move": "Forced Move", "immobile": "Immobile", "knockdown": "Knockdown"}},
+    "scimitar": {"name": "Scimitar", "range": 0, "wealth": 2, "rules": {}, "criticals": {"disarmed": "Disarmed", "persistent damage": "Persistent Damage"}},
+    "short_spear": {"name": "Short Spear", "hands": 3, "range": 50, "wealth": 1, "rules": {}, "criticals": {"disarmed": "Disarmed", "immobile": "Immobile", "persistent damage": "Persistent Damage"}},
+    "short_sword": {"name": "Short Sword", "range": 0, "wealth": 2, "rules": {}, "criticals": {"disarmed": "Disarmed", "persistent damage": "Persistent Damage"}},
+    "shortbow": {
+      "name": "Shortbow",
+      "type": "Two-handed Medium Ranged",
+      "range": 75,
+      "wealth": 2,
+      "rules": {},
+      "criticals": {"knockdown": "Knockdown", "persistent damage": "Persistent Damage", "slowed": "Slowed"}
+    },
+    "small_shield": {
+      "name": "Small Shield",
+      "range": 0,
+      "wealth": 2,
+      "rules": {"defensive": "Defensive 1"},
+      "criticals": {"forced move": "Forced Move", "knockdown": "Knockdown", "stunned": "Stunned"}
+    },
+    "staff": {
+      "name": "Staff",
+      "range": 0,
+      "wealth": 1,
+      "damage": "1d8",
+      "types": ["Two-handed", "Melee", "Medium Ranged"],
+      "attackAttributes": ["Might", "Energy", "Alteration"],
+      "criticals": {"forced move": "Forced Move", "immobile": "Immobile", "knockdown": "Knockdown"}
+    },
+    "wand": {
+      "name": "Wand",
+      "types": ["One-handed", "Melee", "Medium Ranged"],
+      "wealth": 1,
+      "damage": "1d4",
+      "attackAttributes": ["Might", "Energy", "Alteration"],
+      "criticals": {"forced move": "Forced Move", "immobile": "Immobile", "knockdown": "Knockdown"}
+    },
+    "tower_shield": {
+      "name": "Tower Shield",
+      "range": 0,
+      "wealth": 3,
+      "rules": {"defensive": "Defensive 2"},
+      "criticals": {"forced move": "Forced Move", "knockdown": "Knockdown", "stunned": "Stunned"}
+    },
+    "unarmed_strike": {"name": "Unarmed Strike", "range": 0, "wealth": 0, "rules": {"swift": "Swift"}, "criticals": {"knockdown": "Knockdown", "stunned": "Stunned"}},
+    "warhammer": {"name": "Warhammer", "range": 0, "wealth": 2, "rules": {}, "criticals": {"forced move": "Forced Move", "knockdown": "Knockdown", "stunned": "Stunned"}}
+  }
+}
